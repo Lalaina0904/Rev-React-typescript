@@ -12,8 +12,8 @@ type Task = {
 
 export const TaskManager = () => {
     const [title, setTitle] = useState("");
-    const [searchKeyword, setSearchKeyword] = useState("");
-    const [tasks, setTasks] = useState([] as Task[]);
+    // const [searchKeyword, setSearchKeyword] = useState("");
+    // const [tasks, setTasks] = useState([] as Task[]);
 
     const { saveTask, deleteTask, searchTask, task } = useTaskManager();
 
